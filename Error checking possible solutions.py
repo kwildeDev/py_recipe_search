@@ -24,7 +24,6 @@ print(string)
 print(contains_numbers)
 
 
-_______________________________________________________________________
 # Here is an alternative way to check that the input is valid - specifies that only letters and spaces
 # are acceptable
 
@@ -48,4 +47,5 @@ for character in string2:
 print(string2)
 print(invalid_characters)
 if invalid_characters:
+
     print("Invalid input: Please re-enter a search query using only letters and/or spaces")
